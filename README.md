@@ -9,3 +9,4 @@
 # 
 ## Usage
 #### `python3 file_name.py URL block_name road_name year`
+#### or type `make` to use sample input
