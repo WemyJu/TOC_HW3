@@ -1,3 +1,7 @@
+# TOC HW3
+# TocHW3.py
+# Created by Wemy Ju on 25/06/2014.
+
 import urllib.request
 import json
 import sys
@@ -25,4 +29,7 @@ if __name__ == '__main__':
                         total_price += record['總價元']
                         number_of_rec += 1
 
-        print(int(total_price / number_of_rec))
+        if(number_of_rec == 0):
+            print("0")
+        else:
+            print(int(total_price / number_of_rec))
